@@ -1,0 +1,24 @@
+{
+  "name": "05_reactbasic02",
+  "version": "1.0.0",
+  "description": "In Terminal, execute the following commands:\r 1. npm install -g parcel-bundler\r 2. npm init -y\r 3. npm install react@^17.0.0 react-dom@^17.0.0 --save\r 3. npm install @babel/preset-env @babel/preset-react \r @babel/core @babel/plugin-proposal-class-properties -D\r 4. npm i -D rollup postcss@8.1 @rollup/plugin-babel \r @rollup/plugin-commonjs @rollup/plugin-node-resolve \r @rollup/plugin-replace rollup-plugin-livereload \r rollup-plugin-postcss rollup-plugin-serve postcss@8.1 \r postcss-modules@4 rollup-plugin-postcss\r 5. npm i regenerator-runtime core-js\r 6. Build and run the application\r npm start",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
